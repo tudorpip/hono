@@ -354,6 +354,11 @@
       "import": "./dist/adapter/netlify/index.js",
       "require": "./dist/cjs/adapter/netlify/index.js"
     },
+    "./genezio": {
+      "types": "./dist/types/adapter/genezio/index.d.ts",
+      "import": "./dist/adapter/genezio/index.js",
+      "require": "./dist/cjs/adapter/genezio/index.js"
+    },
     "./lambda-edge": {
       "types": "./dist/types/adapter/lambda-edge/index.d.ts",
       "import": "./dist/adapter/lambda-edge/index.js",

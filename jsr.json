@@ -2,15 +2,9 @@
   "name": "@hono/hono",
   "version": "0.0.0",
   "compilerOptions": {
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "deno.ns"
-    ]
+    "lib": ["dom", "dom.iterable", "deno.ns"]
   },
-  "unstable": [
-    "sloppy-imports"
-  ],
+  "unstable": ["sloppy-imports"],
   "exports": {
     ".": "./src/index.ts",
     "./request": "./src/request.ts",
@@ -74,6 +68,7 @@
     "./aws-lambda": "./src/adapter/aws-lambda/index.ts",
     "./vercel": "./src/adapter/vercel/index.ts",
     "./netlify": "./src/adapter/netlify/index.ts",
+    "./genezio": "./src/adapter/genezio/index.ts",
     "./lambda-edge": "./src/adapter/lambda-edge/index.ts",
     "./service-worker": "./src/adapter/service-worker/index.ts",
     "./testing": "./src/helper/testing/index.ts",
@@ -112,9 +107,6 @@
       "docs/MIGRATION.md",
       "src/**/*.ts"
     ],
-    "exclude": [
-      "src/**/*.test.ts",
-      "src/**/*.test.tsx"
-    ]
+    "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx"]
   }
 }
